@@ -36,7 +36,7 @@ h3{
     height: 356px;
     padding: 30px;
     margin-left: 70px;
-    margin-top: 163px;
+    margin-right: 10px;
 }
 .articleImage1 {
     float: right;
@@ -44,13 +44,20 @@ h3{
 }
 .float-left{
     background-color: #FCEE21;
-    width: 617px;
+    width: 523px;
     height: 356px;
     padding: 30px;
-    margin-left: 70px;
-    margin-top: 163px;
 }
 .articleImage2{
     float: left;
     margin: 20px;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-top: 67px;
+    row-gap:45px;
+    padding-top: 163px;
+    
 }

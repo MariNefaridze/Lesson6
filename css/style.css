@@ -1,0 +1,28 @@
+.nav-ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 40px;
+    line-height: 57px;
+    height: 64px;
+    width:auto;
+    padding-top: 76px;
+    padding-left: 217px;
+    padding-right: 362px;
+}
+a{color: #FFFFFF;
+}
+body{
+    background-color: white;
+    padding: 40px;
+}
+.mainDiv{
+    background-color: #56836F;
+    border: 2px solid #006837;
+    height: 1286px;
+}
+h3{
+    font-size: 18px;
+    text-align: center;
+    height: 40px;
+}

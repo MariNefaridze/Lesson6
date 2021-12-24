@@ -14,17 +14,19 @@ a{color: #FFFFFF;
 }
 body{
     background-color: white;
-    padding: 40px;
+    padding: 0px 40px 40px 40px;
 }
 .mainDiv{
     background-color: #56836F;
     border: 2px solid #006837;
     height: 1286px;
+    
 }
 h3{
     font-size: 18px;
     text-align: center;
     height: 40px;
+    padding-top: 10px;
 }
 .logo{
     float:right;
@@ -38,6 +40,8 @@ h3{
     padding: 30px;
     margin-left: 70px;
     margin-right: 10px;
+    font-size: 14px;
+    line-height: 19px;
 }
 .articleImage1 {
     float: right;
@@ -49,6 +53,8 @@ h3{
     width: 523px;
     height: 356px;
     padding: 30px;
+    font-size: 14px;
+    line-height: 19px;
 }
 .articleImage2{
     float: left;

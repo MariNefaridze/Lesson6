@@ -26,3 +26,7 @@ h3{
     text-align: center;
     height: 40px;
 }
+.logo{
+    float:right;
+    margin-right: 55px;
+}

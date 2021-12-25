@@ -1,7 +1,12 @@
 .nav-ul{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
     font-size: 40px;
     line-height: 57px;
     height: 64px;
@@ -65,14 +70,43 @@ h3{
     color: #006837;
 }
 .container{
+    display: -ms-grid;
     display: grid;
+    -ms-grid-columns: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: 1fr 45px 1fr 45px 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     margin-top: 67px;
     row-gap:45px;
     padding-top: 163px;  
 }
+.container > *:nth-child(1){
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;  
+}
+.container > *:nth-child(2){
+    -ms-grid-row: 1;
+    -ms-grid-column: 2;  
+}
+.container > *:nth-child(3){
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;  
+}
+.container > *:nth-child(4){
+    -ms-grid-row: 3;
+    -ms-grid-column: 2;  
+}
+.container > *:nth-child(5){
+    -ms-grid-row: 5;
+    -ms-grid-column: 1;  
+}
+.container > *:nth-child(6){
+    -ms-grid-row: 5;
+    -ms-grid-column: 2;  
+}
 .flexDiv{
+    display:-webkit-box;
+    display:-ms-flexbox;
     display:flex;
     background-color: #FCEE21;
     border: 1px solid #707070;
@@ -89,7 +123,12 @@ h3{
     height:118px;
 }
 .article4{
+    display: -ms-grid;
     display: grid;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
     grid-area: 2/2/4/3 ;
     background-color: #FCEE21;
     border: 1px solid #707070;

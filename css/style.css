@@ -66,9 +66,24 @@ h3{
 .container{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     margin-top: 67px;
     row-gap:45px;
-    padding-top: 163px;
-    
+    padding-top: 163px;  
+}
+.flexDiv{
+    display:flex;
+    background-color: #FCEE21;
+    border: 1px solid #707070;
+    width: 617px;
+    height: 356px;
+    padding: 30px;
+    margin-left: 70px;
+    margin-right: 10px;
+    font-size: 14px;
+    line-height: 19px;
+}
+.flexImg{
+    width:150px;
+    height:118px;
 }
